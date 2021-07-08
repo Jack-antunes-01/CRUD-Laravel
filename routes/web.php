@@ -17,10 +17,11 @@ Route::get('/login', ['as' => 'site.login', 'uses' => 'Site\LoginController@inde
 Route::post('/login/entrar', ['as' => 'site.login.entrar', 'uses' => 'Site\LoginController@entrar']);
 Route::get('/login/sair', ['as' => 'site.login.sair', 'uses' => 'Site\LoginController@sair']);
 
+Route::get('/cadastro', ['as' => 'site.cadastro', 'uses' => 'Site\CadastroController@index']);
+Route::post('/cadastro/cadastrar', ['as' => 'site.cadastro.cadastrar', 'uses' => 'Site\CadastroController@cadastrar']);
+
 Route::get('/contato/{id?}', ['uses' => 'ContatoController@index']);
-
 Route::post('/contato', ['uses' => 'ContatoController@criar']);
-
 Route::put('/contato', ['uses' => 'ContatoController@editar']);
 
 Route::group(['middleware' => 'auth'], function () {

@@ -21,7 +21,7 @@ class LoginController extends Controller
             return redirect()->route('admin.cursos');
         }
 
-        return redirect()->route('site.login')->with('alert', "E-mail ou senha incorreto.");
+        return redirect()->route('site.login');
 
     }
 

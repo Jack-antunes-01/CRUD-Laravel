@@ -21,8 +21,14 @@
           <label>Senha</label>
         </div>
 
-        <button class="btn deep-orange">Entrar</button>
+        <div class="row center">
+          <button class="btn deep-orange">Entrar</button>
+        </div>
       </form>
+
+      <div class="row center">
+        <a href="{{route('site.cadastro')}}"><button class="btn blue">Cadastre-se</button></a>
+      </div>
 
     </div>
 
