@@ -7,6 +7,11 @@ Não possui cadastro, irei implementar para testar meu conhecimento.
 
 ![image](https://user-images.githubusercontent.com/73067717/124988825-de641200-e014-11eb-97c6-bd43c78f1a19.png)
 
+## Cadastro
+Acrescentei um container para centralizar todo o conteúdo do header
+![image](https://user-images.githubusercontent.com/73067717/125002820-293d5400-e02c-11eb-9ec2-c76b0ac63d65.png)
+
+
 ## Após entrar, lista a tabela com os cursos (CRUD)
 
 Nessa parte já temos as novas opções no menu: Cursos, o nome do usuário e a opção de Sair.
