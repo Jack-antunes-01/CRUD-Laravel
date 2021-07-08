@@ -1,3 +1,29 @@
+## Home
+
+![image](https://user-images.githubusercontent.com/73067717/124988724-b96f9f00-e014-11eb-8554-a92b8922d7ef.png)
+
+## Login
+Não possui cadastro, irei implementar para testar meu conhecimento. 
+
+![image](https://user-images.githubusercontent.com/73067717/124988825-de641200-e014-11eb-97c6-bd43c78f1a19.png)
+
+## Após entrar, lista a tabela com os cursos (CRUD)
+
+Nessa parte já temos as novas opções no menu: Cursos, o nome do usuário e a opção de Sair.
+
+![image](https://user-images.githubusercontent.com/73067717/124989028-18351880-e015-11eb-96ad-6c49114ce4f9.png)
+
+## Adicionar
+
+Por último temos a tela de adicionar dados (a de edição é a mesma de adicionar).
+
+![image](https://user-images.githubusercontent.com/73067717/124989264-59c5c380-e015-11eb-95fc-419c718ea0b1.png)
+
+# Informações adicionais
+
+Curso de introdução ao Laravel realizado na Udemy com duração de 4,5 horas, apenas para ser introduzido ao framework. Não vou parar por aqui já que pretendo entender melhor o conceito de MVC.
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
